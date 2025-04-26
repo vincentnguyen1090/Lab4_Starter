@@ -6,7 +6,7 @@
  * @returns The sum of the two numbers if add is true and false otherwise.
  */
 function sumValues(num1, num2, add) {
-    if(add == true && typeof num1 !== 'number' && typeof num2 !== 'number'){
+    if (add === true && typeof num1 === 'number' && typeof num2 === 'number') {
         return num1 + num2;
     }
     return false;
