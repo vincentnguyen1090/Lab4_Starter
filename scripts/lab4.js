@@ -20,7 +20,6 @@ function sumValues(num1, num2, add) {
  * @param {*} discount, a number between 0-1 to represent the discount. 
  * @returns An array of each price's new price, after the discount is applied. Or false, if prices array is empty.
  */
-// prices eg [2,5,1,3] discount = 0.5 
 function discountPrices(prices, discount) {
     if(!Array.isArray(prices) || typeof discount !== 'number') {
         return false;
